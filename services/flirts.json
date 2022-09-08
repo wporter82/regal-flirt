@@ -1,0 +1,35 @@
+{
+    "quotes":
+    [
+        {
+            "id": 1,
+            "quote": "Man with a mask you buttercup, I'd like to pick up your petals and rub them all over me",
+            "date": "2022-09-07",
+            "show": "AEW Dynamite"
+        },
+        {
+            "id": 2,
+            "quote": "Man with a mask... you little marshmallow you. Ooh, yum yum yum!",
+            "date": "",
+            "show": "AEW Rampage"
+        },
+        {
+            "id": 3,
+            "quote": "Man with a mask... you're looking scrumptious in your profile tonight. Scrummy scrummy scrummy, ooh ooh ooh",
+            "date": "",
+            "show": "AEW Rampage"
+        },
+        {
+            "id": 4,
+            "quote": "Man in the mask you're looking like a fine truffle tonight, ooh ooh ooh",
+            "date": "2022-08-05",
+            "show": "AEW Battle of the Belts"
+        },
+        {
+            "id": 5,
+            "quote": "Man with a mask you lovely treacle pudding you, I'd like to smother your in custard and...",
+            "date": "",
+            "show": "AEW Rampage"
+        }
+    ]
+}
