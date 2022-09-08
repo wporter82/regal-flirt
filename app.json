@@ -1,0 +1,6 @@
+{
+    "name": "regal-flirt",
+    "description": "A web service to serve up all the times William Regal flirts with Excalibur.",
+    "repository": "https://github.com/wporter82/regal-flirt.git",
+    "keywords": ["webservice","regal","flirt","excalibur"]
+}
