@@ -5,7 +5,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <style>
-        /* body { padding-top: 50px; } */
         a { color: #000; }
         .bs-footer {
             padding: 40px;
@@ -137,10 +136,10 @@
                 .then((data) => {
                     console.log('Response:', data);
                     let currData = data[0];
-                    document.getElementById('quoteText').textContent = currData.quote;
-                    document.getElementById('quoteDate').textContent = currData.date;
-                    document.getElementById('showName').textContent = currData.show;
-                    document.getElementById('quoteID').textContent = currData.id;
+                    document.getElementById('quoteText').textContent = currData.quote_text;
+                    document.getElementById('quoteDate').textContent = currData.quote_date;
+                    document.getElementById('showName').textContent = currData.show_name;
+                    document.getElementById('quoteID').textContent = currData.quote_id;
                     document.getElementById('quoteRaw').textContent = JSON.stringify(currData);
                 });
             }
