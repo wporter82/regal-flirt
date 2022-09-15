@@ -1,6 +1,6 @@
 {
   "name": "regal-flirt",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,10 @@
   "author": "Wayne Porter <wporter82@gmail.com> (https://github.com/wporter82)",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.18.1",
-    "sqlite3": "^5.0.11"
+    "@supabase/supabase-js": "^1.35.6",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.2"
   }
 }

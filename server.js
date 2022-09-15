@@ -4,10 +4,6 @@ const path = require('path');
 const indexRouter = require('./routes/index');
 const quotesRouter = require('./routes/quotes');
 
-const db = require('./services/db');
-
-db.initDB();
-
 const app = express();
 
 app.use(express.json());
