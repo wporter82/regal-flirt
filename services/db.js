@@ -54,7 +54,7 @@ function createTable() {
     );
 }
 
-function populateTableData(db) {
+function populateTableData() {
     console.log("[db] Populating DB with data from json file...");
     const flirts = require('./flirts.json');
     let sql = 'INSERT INTO quotes(quote_text,quote_date,show_name) VALUES (?, ?, ?)';
